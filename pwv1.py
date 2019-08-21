@@ -10,8 +10,8 @@ while i < 3:
 		if 3 - i > 0:
 			print('login fail , pls retry again')
 			print('remain', 3 - i, 'times')
-		elif 3 - i == 0:
-			print('login fail , no more chance')
+		#elif 3 - i == 0:
+			#print('login fail , no more chance')
 
 
 
