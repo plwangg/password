@@ -7,6 +7,11 @@ while i < 3:
 		break
 	else :
 		i = i + 1
-		print('login fail , pls retry again')
-		print('remain', 3-i, 'times')
+		if 3 - i > 0:
+			print('login fail , pls retry again')
+			print('remain', 3 - i, 'times')
+		elif 3 - i == 0:
+			print('login fail , no more chance')
+
+
 
