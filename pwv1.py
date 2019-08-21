@@ -8,5 +8,5 @@ while i < 3:
 	else :
 		i = i + 1
 		print('login fail , pls retry again')
-		print('remain',3-i,'times')
+		print('remain', 3-i, 'times')
 
